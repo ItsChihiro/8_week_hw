@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    row-gap: 2vh;
+}
+
+header {
+    flex-basis: 4vh;
+}
+
+main {
+    flex-basis: 83.2vh;
+}
+
+.title {
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.welcome {
+    background-color: rgba(212, 217, 217, 0.4);
+    margin-bottom: 2vh;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.call {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer {
+    flex-basis: 7vh;
+    flex-grow: 1;
+    margin-bottom: 0;
+    background-color: #212529;
+    justify-content: center;
+    align-items: end;
+}
+
+.footer-text {
+    color: white;
+    margin-bottom: 0.7rem;
+}
